@@ -76,3 +76,10 @@ metrics:
       measure: transactions
       cumulative_type_params:
         window: 7 days
+- name: cumulative_transactions_in_last_12_days
+    label: "Total Transaction in the Last 18 Days"
+    type: cumulative
+    type_params:
+      measure: transactions
+      cumulative_type_params:
+        window: 14 days
